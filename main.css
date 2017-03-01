@@ -1,8 +1,59 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+ body {
+   background:url(pattern04.png);
+   padding-top:100px;      
+}
+
+.navbar{
+
+  }
+
+#home{
+  background-color:#800000;
+  color:white;
+}
+
+.intro-text{
+  font-weight:800;
+  line-height:30px;
+ 
+}
+#features{
+  font-weight:bolder;
+  line-height:2em;
+}
+
+#testimonial{
+  background-color:#800000;
+  color:white;
+  padding-top:20px;
+  margin-top:25px;
+}
+section {
+  padding-top:20px; 
+    
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+
+.img-circle{
+  border-radius: 70% / 100% 100% 0 0;
+  
+}
+#footer {
+    background: black; 
+    background: -webkit-linear-gradient(red, gray); 
+    background: -o-linear-gradient(black,gray); 
+    background: -moz-linear-gradient(black, gray);
+    background: linear-gradient(black, gray);
+    color:#fff;
+    padding:10px 50px 20px 50px;
+    text-align:right;
 }

@@ -4,51 +4,148 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+        <meta name="description" content="links to the best API's">
         <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
-
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
-
+        <link rel="sqlogo_white-bk(1)" href="sqlogo_white-bk(1).ico">
     </head>
+  
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+       <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="assets/logos/sqlogo_white_bk"</a>
+               <img src="assets/logos/sqlogo_white_bk.png" width="75px" height="auto">
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                     <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   <!--end Navigation List -->
+   <!-- Home -->
+<section id="home">
+  <div id="home" class="container" >
+      <div class="row text-center">
+       <div class="col-md-12">   
+         <img src="assets/logos/api_superstore_logo_ry.png" width="275px">
+      <p class="intro-text text-capitalize">The API Superstore has partnered with API partners across the web<br> to bring you easy acess to the hottest third party services and features</p>
+           </div>
+          </div>
+       </div>
+     </div>
+ </section>
+ <!--feature section -->
+ <section id="features">
+   <div id="features" class="container">
+    <div class="row">
+     <div class="col-md-4">
+       <h1>Features</h1>
+         <ul style="list-style-type:none">
+            <li><i class="fa fa-dot-circle-o"></i>Links to the best API's all over the world.</li>
+            <li><i class="fa fa-dot-circle-o"></i>Pay with credit, check, IOU's, paypal or wire transfer</li>
+            <li><i class="fa fa-dot-circle-o"></i>Conveinent Catalog.</li>
+             <li><i class="fa fa-dot-circle-o"></i>Elegant shopping experience</li>
+           </ul> 
+       <br>
+       <button type="button" class="btn btn-danger">Click here to buy our Super product</button>
+        </div>
+ <div class="col-md-8">
+   <div class="vid">
+      <iframe width="660" height="415" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div> 
+</div>
+     </section>
+        <!--testimonial -->
+ <section id="testimonial">
+     <div id="testimonial" class="container text-center">
+        <div class="row">
+             <div class="col-md-12">
+                <h1>Testimonials</h1>
+                   <img class="img-circle" src="wonder.woman.02.jpg" width="150">
+                   <p>"This product is Wonderful!"</p>
+                   <img class="img-circle"  src="superman-hd_022918248_35.jpg" width="150" >
+               <p>"This is Super!"</p>
+              </div>
+            </div>
+        </div>
+   </div>
+   </section>
+   <!--endtestimonal -->
 
-        <!-- TODO: Create an area to put the explainer video. -->
-
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
-</html>
+    <!--contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+       <h1>Contact Us</h1>
+      <div class="col-md-12">
+      </div>
+   <div class="col-md-6">
+        <form>
+         <div class="row">
+            <div class="col-md-6 col-sm-6">
+               <div class="form-group">
+                    <input type="text" class="form-control" required="required" placeholder="Name">
+               </div>
+              </div>
+  <div class="col-md-6 col-sm-6">
+     <div class="form-group">
+                  <input type="text" class="form-control" required="required" placeholder="Email address">
+            </div>
+           </div>
+         </div>
+ <div class="row">
+   <div class="col-md-12 col-sm-12">
+    <div class="form-group">
+        <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+     </div>
+   <div class="form-group">
+     <button type="submit" class="btn btn-default">Submit Request</button>
+            </div>
+           </div>
+         </div>
+      </form>
+  </div>
+        <p>
+          <strong>Address:</strong>  123 Wonder Lane,Seattle,WA <br />
+          <strong>Email:</strong>  info@APIsuperstore.com <br />
+          <strong>Phone:</strong> 206-555-1234<br />
+        </p>
+          </div>
+         </div>
+     </div>
+    </section>
+       <!--end contact -->
+   
+    <!-- Footer -->
+  <div id="footer">
+     <div class="container">
+    <hr />
+        <div class="text-center center-block">
+            <p class="txt-railway">Share Us</p>
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+</div>
+    <hr />
+</div>
+            <p>Copyright Sally Sadaro 2017</p>
+        </div>
+   
