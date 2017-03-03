@@ -1,18 +1,15 @@
-/* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
-
- body {
+body {
    background:url(pattern04.png);
    padding-top:100px;      
 }
+.jumbotron{
+background:linear-gradient(135deg, rgba(192,36,37,1) 0%,rgba(240,203,53,1) 100%);
 
-.navbar{
-
-  }
+}
 
 #home{
-  background-color:#800000;
-  color:white;
+background:linear-gradient(135deg, rgba(192,36,37,1) 0%,rgba(240,203,53,1) 100%);
+ color:white;
 }
 
 .intro-text{
@@ -26,14 +23,10 @@
 }
 
 #testimonial{
-  background-color:#800000;
-  color:white;
-  padding-top:20px;
-  margin-top:25px;
-}
-section {
-  padding-top:20px; 
-    
+background:linear-gradient(135deg, rgba(192,36,37,1) 0%,rgba(240,203,53,1) 100%);
+color:white;
+padding-top:20px;
+margin-top:25px;
 }
 
 p {
@@ -48,11 +41,6 @@ p {
   
 }
 #footer {
-    background: black; 
-    background: -webkit-linear-gradient(red, gray); 
-    background: -o-linear-gradient(black,gray); 
-    background: -moz-linear-gradient(black, gray);
-    background: linear-gradient(black, gray);
     color:#fff;
     padding:10px 50px 20px 50px;
     text-align:right;
